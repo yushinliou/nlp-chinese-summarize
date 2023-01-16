@@ -8,7 +8,7 @@ tmp 當中儲存的是模型、tokenizer，以及model config，而data當中則
 bash download.sh
 # 需要傳入兩個參數，input以及output所在的位置
 # 如果沒有特別指定則會存取./data/public.jsonl的檔案去預測，然後儲存在./pred/下面
-bash ./run.sh path/to/pred_qa.csv
+bash ./run.sh path/to/public.jsonl path/to/predict.jsonl
 ```
 
 # train model
